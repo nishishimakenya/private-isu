@@ -1,4 +1,3 @@
-name: private-isu
 services:
   nginx:
     image: nginx:1.24
