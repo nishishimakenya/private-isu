@@ -2,10 +2,10 @@ vendor/
 portal/log
 portal/tmp
 
-ansible_old
-benchmarker
-portal
-provisioning
+ansible_old/*
+benchmarker/*
+portal/*
+provisioning/*
 
 ### Portal
 # Ignore bundler config.
