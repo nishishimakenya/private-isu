@@ -71,3 +71,8 @@ docker run --network host --add-host host.docker.internal:host-gateway -i privat
 
 自分で立ち上げたい人向け。`provisioning/`ディレクトリ以下参照。
 
+ベンチコマンド
+docker run --network host --add-host host.docker.internal:host-gateway -i private-isu-benchmarker /opt/go/bin/benchmarker -t http://host.docker.internal -u /opt/go/userdata
+
+初期点数
+{"pass":true,"score":18792,"success":17766,"fail":0,"messages":[]}
